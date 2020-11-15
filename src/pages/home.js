@@ -16,13 +16,13 @@ function ToRenderEverything(){
     return (
         <Fragment>
             <nav className="navbar navbar-expand-lg fixed-top bg-dark" id="mainNav">
-                <div className="container"><a href='https://github.com/jmc846/reactPortfolio/#/' className="navbar-brand js-scroll-trigger">Jonathan Cobb</a>
+                <div className="container"><Link to ='https://github.com/jmc846/reactPortfolio/#/' className="navbar-brand js-scroll-trigger">Jonathan Cobb</Link>
                     <button className="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i className="fas fa-bars"></i></button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto">
-                            <li className="nav-item mx-0 mx-lg-1"><Link to={{hash: "#portfolio"}} className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">PORTFOLIO</Link>
+                            <li className="nav-item mx-0 mx-lg-1"><Link to={{hash: "portfolio"}} className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">PORTFOLIO</Link>
                             </li>
-                            <li className="nav-item mx-0 mx-lg-1"><Link to={{hash: "#about"}} className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">ABOUT</Link>
+                            <li className="nav-item mx-0 mx-lg-1"><Link to={{hash: "about"}} className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">ABOUT</Link>
                             </li>
                             <li className="nav-item mx-0 mx-lg-1"><Link to={{hash: "#contact"}} className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">CONTACT</Link>
                             </li>
@@ -151,14 +151,14 @@ function ToRenderEverything(){
                     <div className="row justify-content-center">
                         <div className="col-lg-4">
                             <div className="d-flex flex-column align-items-center">
-                                <a className="icon-contact mb-3 bg-primary" href="tel:9083379307"><i className="fas fa-phone"></i></a>
+                                <a className="icon-contact mb-3 bg-primary" href="tel:9106840230"><i className="fas fa-phone"></i></a>
                                 <div className="text-muted">Phone</div>
-                                <a className="lead font-weight-bold text-primary" href="tel:9083379307">(910) 684-0230</a>
+                                <a className="lead font-weight-bold text-primary" href="tel:9106840230">(910) 684-0230</a>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className="d-flex flex-column align-items-center">
-                                <a className="icon-contact mb-3 bg-primary" href="mailto:nlamonaco86@gmail.com"><i className="far fa-envelope"></i></a>
+                                <a className="icon-contact mb-3 bg-primary" href="mailto:jmco846@scarletmail.rutgers.edu"><i className="far fa-envelope"></i></a>
                                 <div className="text-muted">Email</div><a className="lead font-weight-bold text-primary" href="jmc846@scarletmail.rutgers.edu">jmc846@scarletmail.rutgers.edu</a>
                             </div>
                         </div>
@@ -177,9 +177,9 @@ function ToRenderEverything(){
                         
                         <div className="col-lg-6 mb-5 mb-lg-0">
                             <h4 className="mb-4">LEARN MORE</h4>
-                            <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/jmc846/portfolio-react"><i className="fab fa-fw fa-github"></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="./assets/resume.pdf"><i className="fas fa-file-pdf "></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jonathan-cobb-0a479222/"><i className="fab fa-fw fa-linkedin-in"></i></a>
+                            <Link className="btn btn-outline-light btn-social mx-1" Link to="https://github.com/jmc846/portfolio-react"><i className="fab fa-fw fa-github"></i></Link>
+                            <Link className="btn btn-outline-light btn-social mx-1" Link to="./public/Jonathan_Cobb_Resume.pdf"><i className="fas fa-file-pdf "></i></Link>
+                            <Link className="btn btn-outline-light btn-social mx-1" Link to="https://www.linkedin.com/in/jonathan-cobb-0a479222/"><i className="fab fa-fw fa-linkedin-in"></i></Link>
                         </div>
                     </div>
                 </div>
